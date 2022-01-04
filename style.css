@@ -11,7 +11,7 @@ h1 {
   color: orange;
 }
 
-section {
+.flex-container {
   display: flex;
   margin-bottom: 125px;
 }
@@ -45,4 +45,18 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 8px;
+}
+
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;background-position: left;
 }
