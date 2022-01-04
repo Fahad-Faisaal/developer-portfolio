@@ -60,3 +60,20 @@ h1 {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;background-position: left;
 }
+
+#web-dev-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon,tomato);
+  border-image-slice: 1;
+}
+
+#web-dev-student {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue,cyan);
+  border-image-slice: 1;
+}
+
+footer {
+  text-align: center;
+  opacity: .65;
+}
